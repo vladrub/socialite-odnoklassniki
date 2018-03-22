@@ -1,5 +1,5 @@
 {
-    "name": "jhaoda/socialite-odnoklassniki",
+    "name": "vladrub/socialite-odnoklassniki",
     "description": "Odnoklassniki OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JhaoDa\\SocialiteProviders\\Odnoklassniki\\": "src/"
+            "vladrub\\SocialiteProviders\\Odnoklassniki\\": "src/"
         }
     }
 }
