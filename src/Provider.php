@@ -45,7 +45,7 @@ class Provider extends AbstractProvider implements ProviderInterface
             'format'          => 'json',
             'method'          => 'users.getCurrentUser',
             'application_key' => $this->getConfig('client_public', env('ODNOKLASSNIKI_PUBLIC')),
-            'fields'          => 'uid,name,first_name,last_name,birthday,pic190x190,has_email,email,sex'
+            'fields'          => 'uid,name,first_name,last_name,birthday,pic190x190,has_email,email,gender'
         ];
 
         ksort($params, SORT_STRING);
